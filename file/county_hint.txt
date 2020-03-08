@@ -1,0 +1,58 @@
+Los Angeles
+San Diego
+San Francisco
+Alameda
+Santa Clara
+San Bernardino
+Riverside
+Santa Barbara
+Orange County
+Contra Costa
+Sacramento
+Alpine
+Modoc
+Sierra
+Trinity
+Tuolumne
+Yuba
+Tehama
+Siskiyou
+San Benito
+Plumas
+Mono
+Mariposa
+Lassen
+Lake
+Inyo
+Glenn
+Del Norte
+Calaveras
+Colusa
+Amador
+Butte
+El Dorado
+Fresno
+Humboldt
+Imperial
+Kern
+Kings
+Madera
+Marin
+Mendocino
+Merced
+Monterey
+Napa
+Nevada
+Placer
+San Joaquin
+San Luis Obispo
+San Mateo
+Santa Cruz
+Shasta
+Solano
+Sonoma
+Stanislaus
+Sutter
+Tulare
+Ventura
+Yolo
