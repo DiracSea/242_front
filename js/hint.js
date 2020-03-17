@@ -14,6 +14,6 @@ $.get("file/act_hint.txt", function(data) {
         })
  });
 
-$(document).ready(function() {
-    $('#dtBasicExample').DataTable();
-} );
+// $(document).ready(function() {
+//     $('#dtBasicExample').DataTable();
+// } );
