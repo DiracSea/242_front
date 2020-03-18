@@ -48,6 +48,9 @@ $(document).ready(function(){
         $("#tbl tbody").append(row2);
         $("#tbl tbody").append(row3);
 		
-	});
+    });
+    $("#btn").click(function(){
+        alert("https://github.com/DiracSea/242_front");
+    });
 });
 

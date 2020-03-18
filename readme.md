@@ -1,5 +1,7 @@
 # WebPage Instruction
 
+## Our website is: [https://diracsea.github.io/242_front/](https://diracsea.github.io/242_front/)
+
 ### use chrome with parameter in command line:
 ```
 > chrome --allow-file-access-from-files
