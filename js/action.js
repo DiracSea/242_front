@@ -46,10 +46,11 @@ $(document).ready(function(){
        
         $("#tbl tbody").append(row1);
         $("#tbl tbody").append(row2);
+        if (r != "Rank By Similarity")
         $("#tbl tbody").append(row3);
-		
+		alert("finish");
     });
-    $("#btn").click(function(){
+    $("#cc").click(function(){
         alert("https://github.com/DiracSea/242_front");
     });
 });
