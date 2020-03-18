@@ -22,8 +22,20 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="test.css">
+
     <!-- My JS -->
     <script src="js/hint.js"></script>
+    
+    <!-- <applet id="app"
+        archive="CourseProject.jar"
+        code="invocation.class">
+    </applet> -->
+    <object classid="app">
+    <param name="type" value="application/x-java-applet" /> <!-- Opera, Google Chrome and Safari use the type parameter, instead of the clsid -->
+    <param name="code" value="invocation" />
+    <param name="archive" value="CourseProject.jar" />
+    </object>
+
     <script src="js/action.js"></script>
     
 
@@ -121,6 +133,8 @@
         </table>
         </div>
         </div>
+    
+    <!-- Exclusive -->
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
