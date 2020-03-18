@@ -28,12 +28,17 @@ $(document).ready(function(){
         var row1 = $("<tr>");
         var row2 = $("<tr>");
         var row3 = $("<tr>");
+        var flag = 1; 
 
         if (r == "Rank By Tweet" && s == "food") res = res1; 
         else if (r == "Rank By User" && s == "entertainment") res = res2; 
         else if (r == "Rank By Similarity" && s == "art") res = res3; 
-        else alert("Input Out of Sample"); 
-
+        else {
+            flag = 0;
+            res = null;
+            alert("Input Out of Sample"); 
+        }
+        if (flag == 1){
         row1.append($("<td>"+r+"</td>"))
            .append($("<td>"+res[0].split(",")[0]+"</td>"))
            .append($("<td>"+res[0].split(",")[1]+"</td>"));
@@ -48,7 +53,8 @@ $(document).ready(function(){
         $("#tbl tbody").append(row2);
         if (r != "Rank By Similarity")
         $("#tbl tbody").append(row3);
-		alert("finish");
+        alert("finish");
+    }
     });
     $("#cc").click(function(){
         alert("https://github.com/DiracSea/242_front");
